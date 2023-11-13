@@ -17,11 +17,11 @@ for linha in mensagem.split('\n'):
 mensagem = """
     ##########################INFO#######################
     #                        HARVARD                    #
-    #                       BETA 0.0.1                  #
+    #                       BETA 0.0.2                  #
     #                        09/11/23                   #
     #                        Sekkin-SK                  #
     # Scribd       (Enable)      | Tiktok      (Disable)#  
-    # Docsity      (Disable)     | Instagram   (Disable)#
+    # Docsity      (Disable)     | Instagram   (Enable) #
     # PasseiDireto (Disable)     | Facebook    (Disable)#
     #####################################################
 
