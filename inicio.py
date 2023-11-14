@@ -23,7 +23,7 @@ mensagem = """
     # ChatPesquisa (Disable)     | Tiktok      (Disable)#  
     # Docsity      (Disable)     | Instagram   (Enable) #
     # PasseiDireto (Disable)     | Facebook    (Disable)#
-    # YouTube      (Disable)     | Scribd      (Enable) #
+    # YouTube      (Enable)      | Scribd      (Enable) #
     #####################################################
 
 
@@ -50,82 +50,98 @@ try:
     print("----------------------------------------")
     import requests
     print("  ")
-    print("requests está instalada.")
+    print("requestS........................Instalada.")
 except ImportError:
-    print("requests não está isntalado.")
+    print("requests........................NONE")
     libraries_missing = True
 
 try:
     from bs4 import BeautifulSoup
     print("  ")
-    print("BeautifulSoup está instalada.")
+    print("BeautifulSoup...................Instalada.")
 except ImportError:
-    print("BeautifulSoup não está isntalado.")
+    print("BeautifulSoup...................NONE")
     libraries_missing = True
 
 try:
     import random
     print("  ")
-    print("random está instalada.")
+    print("random..........................Instalada.")
 except ImportError:
-    print("random não está isntalado.")
+    print("random..........................NONE")
+    libraries_missing = True
+
+try:
+    from pytube import YouTube, Playlist
+    print("  ")
+    print("pytube..........................Instalada.")
+except ImportError:
+    print("python..........................NONE")
+    libraries_missing = True
+
+try:
+    from tqdm import tqdm
+    print("  ")
+    print("tqdm............................Instalada.")
+except ImportError:
+    print("tqdm............................NONE")
     libraries_missing = True
 
 try:
     import threading
     print("  ")
-    print("threading está instalada.")
+    print("threading.......................Instalada.")
 except ImportError:
-    print("threading não está isntalado.")
+    print("threading.......................NONE")
     libraries_missing = True
 
 try:
     import select
     print("  ")
-    print("select está instalada.")
+    print("select..........................Instalada.")
 except ImportError:
-    print("select não está isntalado.")
+    print("select..........................NONE")
     libraries_missing = True
 
 try:
     import sys
     print("  ")
-    print("sys está instalada.")
+    print("sys.............................Instalada.")
 except ImportError:
-    print("sys não está isntalado.")
+    print("sys.............................NONE")
     libraries_missing = True
 
 try:
     import re
     print("  ")
-    print("re está instalada.")
+    print("re..............................Instalada")
 except ImportError:
-    print("re não está isntalado.")
+    print("re..............................NONE")
     libraries_missing = True
 
 try:
     import time
     print("  ")
-    print("time está instalada.")
+    print("time............................Instalada.")
 except ImportError:
-    print("time não está isntalado.")
+    print("time............................NONE")
     libraries_missing = True
 
 try:
     import os
     print("  ")
-    print("os está instalada.")
+    print("os..............................Instalada.")
 except ImportError:
-    print("os não está isntalado.")
+    print("os..............................NONE")
     libraries_missing = True
 
 try:
     import importlib
     print("  ")
-    print("importlib está instalada.")
+    print("importlib.......................Instalada.")
     print("  ")
 except ImportError:
-    print("importlib  não está isntalado.")
+    print("importlib.......................NONE")
     libraries_missing = True
 
 
@@ -138,10 +154,10 @@ try:
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
 
-    print("Selenium está instalada.")
+    print("Selenium........................Instalada.")
     print("  ")
 except ImportError:
-    print("Seleniun não está isntalado.")
+    print("Seleniun........................NONE")
     libraries_missing = True
 
 
