@@ -91,16 +91,16 @@ if urls_encontradas:
                 else:
                     print("   ")
                     print("   ")
-                    print("ERRO NO SEGUNDO LINK")
+                    print("TENTE NOVAMENTE")
             else:
                 print("   ")
                 print("   ")
-                print("ERRO NO LINK")
+                print("TENTE NOVAMENTE")
     else:
         # Exibe apenas a primeira URL encontrada se não houver "https://d.rapidcdn.app/snapi e"
         print("Link de Download:", urls_encontradas[0])
 else:
-    print("Certifique-se de que o link do vídeo esteja correto")
+    print("TENTE NOVAMENTE")
 
 time.sleep(random.uniform(1, 3))
 
